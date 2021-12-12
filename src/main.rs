@@ -7,6 +7,7 @@ mod day_04;
 mod day_05;
 mod day_06;
 mod day_07;
+mod day_08;
 
 fn main() {
     match env::args()
@@ -21,6 +22,7 @@ fn main() {
         "05" | "5" => day_05::run(),
         "06" | "6" => day_06::run(),
         "07" | "7" => day_07::run(),
+        "08" | "8" => day_08::run(),
         _ => println!("Invalid day"),
     }
 }
